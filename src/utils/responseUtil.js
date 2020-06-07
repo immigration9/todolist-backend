@@ -1,12 +1,8 @@
 module.exports = {
-  createResponse: data => {
-    return {
-      data,
-    };
+  createResponse: (data) => {
+    return data;
   },
-  createError: details => {
-    return {
-      details,
-    };
+  createError: (details) => {
+    return details;
   },
 };

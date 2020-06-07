@@ -37,7 +37,9 @@ module.exports = {
       /**
        * @todo 확인을 해봐야하는 부분이 있다.
        */
-      return res.status(httpStatus.OK).send(createResponse(data));
+      return res
+        .status(httpStatus.OK)
+        .send(createResponse(data[data.length - 1]));
     } else {
       return res
         .status(httpStatus.BAD_REQUEST)
