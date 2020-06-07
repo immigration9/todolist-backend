@@ -6,8 +6,8 @@
   "author": "immigration9 <projgotham18@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --ignore db/ index.js",
-    "deploy": "pm2 start src/index.js"
+    "dev": "nodemon --ignore db/ index.js",
+    "start": "pm2 start src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
