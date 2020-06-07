@@ -11,6 +11,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 app.use('/todos', todos);
+app.use('/', (req, res) => {
+  res.send('환영합니다! 뒤에 /todos를 붙혀서 접속해주시기 바랍니다');
+});
 
 app.use((req, res, next) => {
   next(createError(404));
