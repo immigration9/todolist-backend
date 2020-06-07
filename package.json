@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon --ignore db/ index.js",
-    "start": "pm2 start src/index.js"
+    "start": "node src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
