@@ -52,7 +52,7 @@ id값에 맞는 todo 데이터를 가져온다.
 
 ### URL
 
-(POST) /todos/:id
+(POST) /todos
 
 ### Response Example
 
