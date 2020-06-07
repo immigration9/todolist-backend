@@ -54,6 +54,16 @@ id값에 맞는 todo 데이터를 가져온다.
 
 (POST) /todos
 
+### Request Example
+
+아래와 같이 body를 추가해줘야 한다.
+
+```json
+{
+  "name": "this is the value for name"
+}
+```
+
 ### Response Example
 
 추가한 todo가 반환된다.
@@ -72,6 +82,16 @@ id값에 맞는 todo 데이터를 가져온다.
 ### URL
 
 (PUT) /todos/:id
+
+### Request Example
+
+아래와 같이 수정될 내용을 담은 body를 추가해줘야 한다.
+
+```json
+{
+  "name": "this is the value for name"
+}
+```
 
 ### Response Example
 
